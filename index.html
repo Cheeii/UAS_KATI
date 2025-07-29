@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Produk - CHEI STORE</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #ffe082;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 0;
+    position: relative;
+}
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+</style>
+</head>
+<body>
+<header style="background-image: url('bch.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+    <h1>CHEI STORE</h1>
+</header>
+<nav>
+    <a href="index.html">Produk</a>
+    <a href="input_transaksi.html">Input Transaksi</a>
+    <a href="tentang.html">Kontak Kami</a>
+</nav>
+<div class="marquee">
+    <span class="marquee-content">
+        Promo Spesial! Diskon sampai 50% hari ini! &nbsp; | &nbsp;
+        Gratis Ongkir untuk pembelian di atas Rp 1.000.000! &nbsp; | &nbsp;
+        Cashback hingga Rp 500.000! &nbsp; | &nbsp;
+        Cicilan 0% hingga 12 bulan! &nbsp; | &nbsp;
+        Hadiah langsung untuk pembelian kendaraan!
+    </span>
+</div>
+<div class="container">
+    <aside>
+        <h3>Kategori Produk</h3>
+        <ul>
+            <li>Kendaraan</li>
+            <li>Pakaian</li>
+            <li>Aksesoris</li>
+        </ul>
+    </aside>
+    <main>
+        <h2>Daftar Produk Kendaraan</h2>
+        <ul>
+            <li>
+                <strong>Produk 1 - Rp 500.000.000</strong><br />
+                <a href="input_transaksi.html?produk=Produk1" class="btn-beli">Beli</a><br />
+                <a href="fortuner.html" target="_blank">
+                    <img src="mobil1.jpg" alt="Produk 1" />
+                </a>
+            </li>
+            <li>
+                <strong>Produk 2 - Rp 200.000.000</strong><br />
+                <a href="input_transaksi.html?produk=Produk2" class="btn-beli">Beli</a><br />
+                <a href="wuling.html" target="_blank">
+                    <img src="mobil2.jpg" alt="Produk 2" />
+                </a>
+            </li>
+            <li>
+                <strong>Produk 3 - Rp 3.000.000.000</strong><br />
+                <a href="input_transaksi.html?produk=Produk3" class="btn-beli">Beli</a><br />
+                <a href="bmw.html" target="_blank">
+                    <img src="mobil3.jpg" alt="Produk 3" />
+                </a>
+            </li>
+        </ul>
+    </main>
+</div>
+<footer>&copy; 2025 CHEI STORE</footer>
+</body>
+</html>

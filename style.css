@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #00c853;
+}
+.container {
+    display: flex;
+    min-height: 400px;
+}
+aside {
+    width: 200px;
+    background-color: #1e1e1e;
+    padding: 15px;
+    box-sizing: border-box;
+}
+aside h3 {
+    margin-top: 0;
+}
+main {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 20px;
+}
+.btn-beli {
+    display: inline-block;
+    background-color: #00c853;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.btn-beli:hover {
+    background-color: #009624;
+}
+img {
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #444;
+}
+.marquee {
+    background-color: #222;
+    padding: 10px 0;
+    color: #00c853;
+    font-weight: bold;
+    text-align: center;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00c853;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #009624;
+}
+.invoice-box {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+.invoice-box h2 {
+    text-align: center;
+}
+.invoice-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.invoice-box table td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+}
